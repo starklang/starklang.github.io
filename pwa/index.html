@@ -10,10 +10,28 @@ if ('serviceWorker' in navigator) {
 	navigator.serviceWorker.register('./service-worker.js').then(function() { console.log('Service Worker Registered'); });
 }
 </script>
+<style type="text/css">
+body {
+	text-align: center;
+}
+h1 {
+	font-size: 128px;
+}
+.navi {
+	font-size: 128px;
+}
+.navi a {
+	color: #9ff;
+}
+</style>
 </head>
 <body>
-<h1>Hello PWA.</h1>
-<img src="./pwa-logo.svg" alt="PWA logo" class="image" />
-<a href="p.html">p.html</a>
+<h1>Hello PWA!</h1>
+<div>
+	<img src="./pwa-logo.svg" alt="PWA logo" class="image" />
+</div>
+<div class="navi">
+	<a href="PWA-2.html">NEXT</a>
+</div>
 </body>
 </html>
